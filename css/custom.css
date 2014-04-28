@@ -1,0 +1,25 @@
+body {
+	background: #dedede;
+}
+
+div.contenido {
+	background: #fff;
+	display: block;
+	max-width: 400px;
+	min-width: 300px;
+
+	/*position: relative;
+	left: 30%;
+	top: 10px;*/
+
+	margin: 0 auto;
+	margin-top: 2%;
+
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+	-webkit-box-shadow: 10px 11px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 11px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 11px 5px -9px rgba(0,0,0,0.75);
+}

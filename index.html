@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="contenido">
+            
+            <h4>Agenda de contactos:</h4>
+            <small>Agenda de contactos utilizando web storage de HTML5</small><br><br>
+            <table>
+                <form>
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" name="nombre" id="nombre"></td>
+                </tr>
+                <tr>
+                    <td>Dirección: </td>
+                    <td><input type="text" name="direccion" id="direccion"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr><td><button type="submit" id="save" value="guardar">Guardar</button></td></tr>
+                </form>
+            </table>
+
+        </div>
+
+        <div class="contenido" id="datos-grabados">
+            <p>Datos existentes: </p>
+            <table>
+                <form>
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" name="nombreg" id="nombreg"></td>
+                </tr>
+                <tr>
+                    <td>Dirección: </td>
+                    <td><input type="text" name="direcciong" id="direcciong"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="text" name="emailg" id="emailg"></td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td><button type="submit" id="edit" value="editar">Editar</button></td>
+                    <td><button type="submit" id="borrar">Borrar</button></td>
+                </tr>
+                </form>
+            </table>
+        </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/vendor/jquery-1.11.0.js"></script>
+        <script src="js/custom.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+        //     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        //     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        //     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        //     e.src='//www.google-analytics.com/analytics.js';
+        //     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        //     ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
